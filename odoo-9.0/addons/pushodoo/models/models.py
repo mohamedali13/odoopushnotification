@@ -191,3 +191,7 @@ class config(models.Model):
         for result in self._cr.fetchall():
             count += 1
         return {"nb": count}
+        
+        
+        class notify :
+            _name = 'notification'
