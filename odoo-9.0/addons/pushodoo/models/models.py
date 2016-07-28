@@ -192,6 +192,4 @@ class config(models.Model):
             count += 1
         return {"nb": count}
         
-        
-        class notify :
-            _name = 'notification'
+    
